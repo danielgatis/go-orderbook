@@ -1,0 +1,1 @@
+{"Book":{"symbol":"","bids":[],"asks":[{"id":"3","traderId":"3","side":"sell","amount":"1","price":"300"},{"id":"2","traderId":"2","side":"sell","amount":"2","price":"400"}],"version":1},"Order":{"id":"1","traderId":"1","side":"sell","amount":"5","price":"500"}}

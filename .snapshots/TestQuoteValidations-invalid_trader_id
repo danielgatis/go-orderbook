@@ -1,0 +1,1 @@
+{"Book":{"symbol":"","bids":[],"asks":[{"id":"1","traderId":"1","side":"sell","amount":"2","price":"200"},{"id":"2","traderId":"2","side":"sell","amount":"2","price":"400"},{"id":"3","traderId":"3","side":"sell","amount":"2","price":"600"}],"version":0},"Result":null,"Err":"Invalid trader id"}
