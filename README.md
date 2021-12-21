@@ -4,18 +4,6 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/danielgatis/go-orderbook/master/LICENSE)
 [![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/danielgatis/go-orderbook)
 
-
-A performatic order book matching engine.
-
-### Features
-
-- Post only orders
-- Limit orders
-- Market orders
-- Order book depth
-- Calculate symbol price for a given quantity
-- Standard price/time priority
-
 ### License
 
 Copyright (c) 2021-present [Daniel Gatis](https://github.com/danielgatis)
