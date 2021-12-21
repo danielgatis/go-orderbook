@@ -36,14 +36,14 @@ func (ob *OrderBook) Version() uint64 {
 }
 
 // Reset resets the order book.
-func (ob *OrderBook) Reset() {
+func (ob *OrderBook) Reset(version uint64) {
 	defer ob.Unlock()
 	ob.Lock()
 
 	ob.orders = make(map[string]*list.Element)
 	ob.asks = NewOrderSide(Sell)
 	ob.bids = NewOrderSide(Buy)
-	ob.version = 0
+	ob.version = version
 }
 
 // MarshalJSON implements json.MarshalJSON.
